@@ -1,0 +1,115 @@
+@media (max-width: 500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: blue;
+  }
+
+  /* Total */
+  .goals {
+    background-color: white;
+    margin: 1.5rem 1.5rem 0 1.5rem;
+    height: auto;
+  }
+
+  .total-goal {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    margin-bottom: 0;
+  }
+  .content-goals {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    gap: 0;
+    align-items: center;
+    padding-bottom: 1rem;
+    margin-right: 1rem;
+    border-bottom: 1px solid rgba(202, 202, 202, 0.863);
+  }
+  .main-goal {
+    margin-left: 1rem;
+    margin-right: 2rem;
+  }
+  .content-goals i {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  /* SCOPE */
+  .scope {
+    margin: 0 1.5rem 0 1.5rem;
+  }
+  .content-scope {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 2rem;
+  }
+
+  /* TEAM */
+  .team {
+    margin: 0 1.5rem 0 1.5rem;
+  }
+  .content-team {
+    margin-bottom: 1rem;
+  }
+  .main-team {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 0;
+    margin-bottom: 1.5rem;
+  }
+  .main-team i {
+    text-align: center;
+  }
+  .detail-team {
+    margin-left: 2rem;
+  }
+  .detail-team h5 {
+    margin-bottom: 0;
+  }
+
+  /* PRIMARY */
+  .primary {
+    margin: 0 1.5rem 0 1.5rem;
+  }
+  .main-primary {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-primary i {
+    text-align: center;
+  }
+  .main-primary p {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .content-primary {
+    margin-bottom: 2rem;
+  }
+
+  /* TIMELINE */
+  .timeline {
+    margin: 0 1.5rem 1.5rem 1.5rem;
+  }
+  .main-timeline {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    grid-template-rows: auto auto;
+  }
+  .number {
+    margin-left: 1rem;
+  }
+  .detail-timeline,
+  .detail-timeline-1 {
+    margin-right: 1.5rem;
+  }
+  .content-timeline {
+    margin-bottom: 2rem;
+  }
+}
